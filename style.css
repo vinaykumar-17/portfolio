@@ -1,0 +1,130 @@
+body {
+    max-height: auto;
+    background-image: url(kevin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: fixed;
+}
+
+@media only screen and (max-width: 768px) {}
+
+#slide {
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 20px 20px;
+}
+
+#slide img {
+    width: 100%;
+}
+
+#box {
+    margin-top: 250px;
+
+}
+
+#Home::after {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+#heading {
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(245, 135, 9);
+    color: white;
+    border-radius: 20px;
+}
+
+#info {
+    color: beige;
+}
+
+.img-fluid {
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 30px;
+}
+
+#pic {
+    background: url(picbg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+#About::after {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+
+.card-img-top {
+    height: 50vh;
+}
+
+#Skills::after {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+#Projects::before {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+#Projects::after {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+#col {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(172, 163, 163);
+}
+
+#end {
+    border: 1px solid rgb(19, 18, 18);
+    border-radius: 10px;
+    background-color: rgb(59, 59, 59);
+}
+
+.para {
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    text-shadow: 2px 3px 6px red;
+}
+
+.mad {
+    color: white;
+}
+
+.icons {
+    text-shadow: 2px 4px 6px rgb(250, 12, 12);
+
+}
+
+#Contact::after {
+    content: '';
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
